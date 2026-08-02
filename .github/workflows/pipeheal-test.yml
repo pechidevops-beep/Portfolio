@@ -19,5 +19,5 @@ jobs:
       - name: Show Date
         run: date
 
-      - name: Success Message
-        run: echo "Workflow completed successfully!"
+    - name: Intentional Failure
+  run: exit 1
