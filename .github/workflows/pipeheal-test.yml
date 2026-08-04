@@ -18,6 +18,3 @@ jobs:
 
       - name: Show Date
         run: date
-
-  - name: Intentional Failures by me foe project
-  run: exit 3
