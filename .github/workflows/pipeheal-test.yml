@@ -18,4 +18,8 @@ jobs:
 
       - name: Show Date
         run: date
+- name: Intentional Failure Test
+  run: |
+    echo "This is going to fail!"
+    exit 1
 
